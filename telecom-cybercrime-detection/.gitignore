@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.idea/
+models/*.joblib
+outputs/*
+!outputs/.gitkeep
+data/UNSW_NB15_*.csv
+.DS_Store

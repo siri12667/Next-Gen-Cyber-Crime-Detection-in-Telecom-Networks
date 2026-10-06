@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run GUI (main.py)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/main.py",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Run CLI pipeline",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "src.run_cli",
+      "console": "integratedTerminal"
+    }
+  ]
+}
